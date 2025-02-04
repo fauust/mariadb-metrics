@@ -16,4 +16,4 @@ If you are a contributor to MariaDB it would help us immensely if you could look
 
 ## READMEs
 
-In this directory there is a Python script to search for repository-READMEs that mention MySQL, but not MariaDB - a starting point for evaluation of repos that should mention MariaDB. The output csv is a list of repos sorted by stars (indicator of popularity) and filtered by activity (last push within a year). 
+In this directory there is a Python script to search for repository-READMEs that mention MySQL, but not MariaDB - a starting point for evaluation of repos that should mention MariaDB. The output csv is a list of repos sorted by stars (indicator of popularity) and filtered by activity (last push within a year).
