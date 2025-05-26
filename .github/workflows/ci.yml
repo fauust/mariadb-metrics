@@ -13,5 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generating commit logs
+        if: github.event_name != 'schedule'
+        run: |
+          cd commits && ./generate.sh -t 1
+      - name: Generating commit logs (schedule)
+        if: (github.event_name == 'schedule' && github.repository == 'mariadb/metrics')
         run: |
           cd commits && ./generate.sh -t 1
