@@ -4,8 +4,8 @@ name: Generate commit logs
 on:
   push:
   pull_request:
-  schedule:
-    - cron: "42 10 * * 1"
+  # schedule:
+  #   - cron: "42 10 * * 1"
 
 jobs:
   generate-commit-logs:
